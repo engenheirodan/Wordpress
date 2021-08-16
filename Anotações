@@ -1,5 +1,21 @@
-Recomendação: Não utilize plugins que altera a estrutura do woordpress, pois fazendo isso você abre a segurança e seu sistema fica vulneravel ou faça um otimo codeview!!!
+Recomendação: Não utilize plugins que altera a estrutura do woordpress, pois fazendo isso você abre a segurança e seu sistema fica vulneravel ou faça um otimo codereview!!!
 
 wordpress.org: utilizado para desenvolvedor wordpress.
 
 wordpress.br: utilizado como plataforma blog gratuita online e bem limitada.
+
+/--Areas Internas Painel do Wordpress--/
+
+>>>Plugins: Pode adicionar , remover ou editar algum plugin.
+>>>Aparência: Temas: Escolher um tema e possivel gestão de teste A/B
+              Personalizar:
+              Widgets:
+              Menus:
+              Fundo:
+              Editor de Tema:
+
+>>>Configurações: Informações gerais
+              Geral: vai pro rankeamento no google/meta tags.
+              Escrita: vincular categorias para trazer aos posts.
+              Leitura: Utilizar Como blog, quantidades de itens que vai mostrar no RSS("Feed de materia, basicamente um serviço de xml").
+              Links permanentes: Como você quer mostrar os dados na sua url, deixar ela personalizada utilizando tecnicas de SEO.
