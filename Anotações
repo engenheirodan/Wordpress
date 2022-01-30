@@ -6,7 +6,9 @@ wordpress.br: utilizado como plataforma blog gratuita online e bem limitada.
 
 /--Areas Internas Painel do Wordpress--/
 
-wp.config: Aonde fica as informações de usuario,  banco de dados e senha do wordpress. Alem de segurança e debuuger com true.
+wp.config.php: Aonde fica as informações de usuario,  banco de dados e senha do wordpress. Alem de segurança e debuuger com true.
+
+Inicialmente precisa criar no phpadmin um usuario e banco de dados e depois aplicar todos os privilegios para esse usuario.
 
 >>>Plugins: Pode adicionar , remover ou editar algum plugin.
 
