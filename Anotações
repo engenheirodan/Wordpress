@@ -19,6 +19,9 @@ wp-admin: toda configuraão da area administrativa.
 
 wp-content: Plugins e Temas instalados.
 
+Style.css: Estilização do seu tema.
+
+Functions.php: Funções do seu tema.
 
 
 /---------------------------------------Areas Internas Painel do Wordpress----------------------------------------------------------/
