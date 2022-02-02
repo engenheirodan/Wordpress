@@ -15,6 +15,7 @@ style.css: Estilo do tema e informações
 function.php: Funções do tema wordpress
 screenshot.png: Imagem da Figura tema wordpress
 assets: Imagem que contem os arquivos de CSS, JS E IMAGEM do meu tema
+page.php: deixa as paginas dinamicas
 
 
 
