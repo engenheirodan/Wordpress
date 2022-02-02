@@ -7,6 +7,18 @@ wordpress.br: utilizado como plataforma blog gratuita online e bem limitada.
 
 https://codex.wordpress.org/images/0/02/Hierarquia_de_Arquivos_de_Tema_WordPress.png
 
+/----------------------------------------Tema Wordpress--------------------------------------------------------------------------------/
+
+Um tema wordpress precisa dos seguintes arquivos iniciais:
+index.php: inicio de toda aplicação
+style.css: Estilo do tema e informações
+function.php: Funções do tema wordpress
+screenshot.png: Imagem da Figura tema wordpress
+assets: Imagem que contem os arquivos de CSS, JS E IMAGEM do meu tema
+
+
+
+
 /----------------------------------------Raizes do Codigo--------------------------------------------------------------------------------/
 
 wp.config.php: Aonde fica as informações de usuario,  banco de dados e senha do wordpress. Alem de segurança e debuuger com true.
