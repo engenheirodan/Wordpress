@@ -1,0 +1,2 @@
+-->codigo que transform o html para o php 
+<?php bloginfo('template_url'); ?>/
