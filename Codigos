@@ -1,3 +1,5 @@
 -->codigo que transform o html para o php 
-<?php bloginfo('template_url'); ?>/
-<?php echo get_stylesheet_directory_uri() ?>
+<?php bloginfo('template_url'); ?>/ ==> serve para apontar urls
+
+
+<?php echo get_stylesheet_directory_uri() ?> serve para apontar urls
