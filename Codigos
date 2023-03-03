@@ -17,3 +17,10 @@ page.php
     </div>
 <?php endif; ?>
 ___________________________________________________
+para chamar o loop dos posts
+
+ <?php
+     if( have_posts() ) {
+    while ( have_posts() ){
+    the_post();
+  ?>
