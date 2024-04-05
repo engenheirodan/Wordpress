@@ -24,3 +24,6 @@ para chamar o loop dos posts
     while ( have_posts() ){
     the_post();
   ?>
+_______________________________________________________
+post thumbnails aquela imagem lateral que você insere ai aparece no tema
+add_theme_support( 'post-thumbnails' );
