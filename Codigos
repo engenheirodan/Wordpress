@@ -27,3 +27,21 @@ para chamar o loop dos posts
 _______________________________________________________
 post thumbnails aquela imagem lateral que você insere ai aparece no tema
 add_theme_support( 'post-thumbnails' );
+___________________________________________________________
+Limitar quantidade de posts em uma pagina
+   <?php
+        $args = array(
+            'posts_per_page'=> 4,
+            'post_type'=> 'post'
+        );
+        $the_query_post = new WP_Query($args);
+        if($the_query_post->have_posts()){           
+            $i=1;
+            // while ($the_query_post->have_posts()) {                
+            //     $the_query_post->the_post();   
+            foreach ($the_query_post->posts as $key => $post) {
+                # code...
+          
+                $portfolioId= "portfolioModal".$i;                            
+            ?>
+
