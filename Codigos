@@ -44,4 +44,7 @@ Limitar quantidade de posts em uma pagina
           
                 $portfolioId= "portfolioModal".$i;                            
             ?>
-
+____________________________________________________________________
+debuggar php 
+   var_dump($the_query_post);
+        exit;
