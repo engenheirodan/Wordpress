@@ -19,3 +19,4 @@ add_filter( 'login_errors', 'login_response' );
 function login_response(){
 	return "Descobre ai fodão";
 }
+13 ==> mascara login plugin https://wordpress.org/plugins/wps-hide-login/
