@@ -1,0 +1,12 @@
+1 ==> Renomer prefixo do banco de dados ou plugin 
+2 ==> Use um gerador de senha 
+3 ==> Não usar login como nome admin
+4 ==> Alterar chaves de autenticação no wp-config.php link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org
+5 ==> Desativar Configurações de discussão notificação pingbacks e trackbacks
+6 ==> Proteger arquivos com informações sensiveis no .htaccess 
+{<files .htacess>
+Order  deny, allow
+Deny from all
+</files>}
+7 ==> Robots.txt ocultar informações: https://l1nq.com/lzHSe e permissões no painel de hospedagem
+8 ==> 
