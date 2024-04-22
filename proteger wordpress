@@ -10,3 +10,4 @@ Deny from all
 </files>}
 7 ==> Robots.txt ocultar informações: https://l1nq.com/lzHSe e permissões no painel de hospedagem
 8 ==> Desabilitar editor de temas e Plugins, config.php antes de código final ==> define('DISALLOW_FILE_EDIT', true);
+9 ==> Desabilitar editor de temas e Plugins, config.php antes de código final ==> define('DISALLOW_FILE_MODS', true);
