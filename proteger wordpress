@@ -11,3 +11,11 @@ Deny from all
 7 ==> Robots.txt ocultar informações: https://l1nq.com/lzHSe e permissões no painel de hospedagem
 8 ==> Desabilitar editor de temas e Plugins, config.php antes de código final ==> define('DISALLOW_FILE_EDIT', true);
 9 ==> Desabilitar editor de temas e Plugins, config.php antes de código final ==> define('DISALLOW_FILE_MODS', true);
+10 ==> CLOUDFLARE FIREWALL
+11 ==> CERTIFICADO HTTPS
+12 ==> Retirar informações de login e senha ( Wordfence ) ou tema/ functions.php ==> 
+// bloqueando dica login  e senha
+add_filter( 'login_errors', 'login_response' );
+function login_response(){
+	return "Descobre ai fodão";
+}
