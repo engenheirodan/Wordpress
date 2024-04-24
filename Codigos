@@ -24,6 +24,30 @@ para chamar o loop dos posts
     while ( have_posts() ){
     the_post();
   ?>
+
+                    ou
+
+
+		<?php
+		if( have_posts() ) :
+			while( have_posts() ) :
+				the_post();
+				?>
+
+				<h3><?php the_title(); ?></h3>
+
+				<div>
+					<?php the_content(); ?>
+				</div>
+
+				<?php
+			endwhile;
+		else:
+			?>
+			<h3>Posts not found!</h3>
+			<?php
+		endif;
+		?>
 _______________________________________________________
 post thumbnails aquela imagem lateral que você insere ai aparece no tema
 add_theme_support( 'post-thumbnails' );
