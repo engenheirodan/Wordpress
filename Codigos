@@ -1,3 +1,5 @@
+https://developer.wordpress.org/themes/
+
 -->codigo que transform o html para o php 
 <?php bloginfo('template_url'); ?>/ ==> serve para apontar urls
 
