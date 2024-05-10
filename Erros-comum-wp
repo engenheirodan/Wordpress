@@ -1,11 +1,21 @@
-1. Não ter Feito Backupsn
-2. Não usar um plugin de segurança
-3. QA --> Quality Assurance realizar uma revisão antes/ teste QA
-4. Esquecer de testar formulários/ envio de e-mail
-5. Não testar funcionalidades
-6. Não testar todos os navegadores e telas responsivas
-7. Não usar o Git para recuperar os codigos
-8. Não otimizar imagens
-9. Esquecer de redirecionar URLS antigas / sitemap
+1.  Não ter Feito Backupsn
+2.  Não usar um plugin de segurança
+3.  QA --> Quality Assurance realizar uma revisão antes/ teste QA
+4.  Esquecer de testar formulários/ envio de e-mail
+5.  Não testar funcionalidades
+6.  Não testar todos os navegadores e telas responsivas
+7.  Não usar o Git para recuperar os codigos
+8.  Não otimizar imagens
+9.  Esquecer de redirecionar URLS antigas / sitemap
 10. Esquecer de colocar script do Google Analytics - GTM (Google Tag Manager)
-11. 
+11. Não usar o Capctcha (reCaptcha)
+12. Esquecer de fazer SEO 
+13. Não usar Tema filho
+14. Não colocar js e css do jeito certo wp_enqueue_script() -> admin / admin_enqueue_script() -> admin
+15. User nomes comuns para as funcoes
+16. Não fazer temas e plugins fáceis de editar
+17. Desenvolver com o WP_DEBUG em "false"
+18. Criar códigos em PHP que não levam em consideração o fato da página estar no cache.
+19. Não levar a segurança a sério / impar inputs
+20. Hardcoding Values / Colocar valores direto no codigo
+21. Loops que listam todos os posts -   wp_QUERY( ARRAY('posts_per_page' => -1 ));
