@@ -1,0 +1,11 @@
+1. Não ter Feito Backupsn
+2. Não usar um plugin de segurança
+3. QA --> Quality Assurance realizar uma revisão antes/ teste QA
+4. Esquecer de testar formulários/ envio de e-mail
+5. Não testar funcionalidades
+6. Não testar todos os navegadores e telas responsivas
+7. Não usar o Git para recuperar os codigos
+8. Não otimizar imagens
+9. Esquecer de redirecionar URLS antigas / sitemap
+10. Esquecer de colocar script do Google Analytics - GTM (Google Tag Manager)
+11. 
