@@ -54,3 +54,5 @@ Inicialmente precisa criar no phpadmin um usuario e banco de dados e depois apli
               Links permanentes: Como você quer mostrar os dados na sua url, deixar ela personalizada utilizando tecnicas de SEO.
 
 /--Destaque das Principais Areas Internas Painel do Wordpress--/
+/------------------------------Classe: WP_QUERY---------------------------------------------------------------------------------------------/
+Usado uma vez dentro do wordpress para processar uma classe usado no banco de dados.
